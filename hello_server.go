@@ -41,7 +41,7 @@ func main() {
 
 	// Start Server
 	go func() {
-		log.Println("Starting Server 6")
+		log.Println("Starting Server 67")
 		if err := srv.ListenAndServe(); err != nil {
 			log.Fatal(err)
 		}
