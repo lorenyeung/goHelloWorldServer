@@ -15,7 +15,7 @@ import (
 func handler(w http.ResponseWriter, r *http.Request) {
 	query := r.URL.Query()
 	name := query.Get("name")
-	log.Printf("Received request name2 for %s\n", name)
+	log.Printf("Received request name3 for %s\n", name)
 	w.Write([]byte(CreateGreeting(name)))
 }
 
